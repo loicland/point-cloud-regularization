@@ -20,5 +20,9 @@ ALPHA-EXPANSION : http://www.csd.uwo.ca/faculty/olga/software.html
 
 LiDAR Format : https://github.com/IGNF/lidarformat
 
+CGAL (for Voronoi-cells-adjacency graphs)
+
+ANN (for nearest-neighbors graphs)
+
 All those dependencies are optional, but access to the corresponding regularization are dependant on which ones are installed. If you chose not to install some of those libraries, some code commenting might be necessary.
 If LiDAR_Format is not installed, you will need to convert your point clouds into the correct format, as detailed in the function convert_ply_mex.cpp
