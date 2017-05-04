@@ -11,9 +11,13 @@ This framework propose a set of methods for spatialy regularizing semantic label
 As mentioned in the paper above, 4 fidelity funciton and 3 regularizer are proposed.
 
 DEPENDENCIES:
+
 Cut Pursuit : https://github.com/loicland/cut-pursuit
+
 PFDR : (to come very soon)
+
 ALPHA-EXPANSION : http://www.csd.uwo.ca/faculty/olga/software.html
+
 LiDAR Format : https://github.com/IGNF/lidarformat
 
 All those dependencies are optional, but access to the corresponding regularization are dependant on which ones are installed. If you chose not to install some of those libraries, some code commenting might be necessary.
