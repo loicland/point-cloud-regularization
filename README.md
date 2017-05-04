@@ -8,9 +8,9 @@ A structured regularization framework for spatially smoothing semantic labelings
 Landrieu, L., Raguet, H., Vallet, B., Mallet, C., & Weinmann, M. (2017).
 
 This framework propose a set of methods for spatialy regularizing semantic labelings on a point cloud.
-As mentioned in the paper above, 4 fidelity funciton and 3 regularizer are proposed.
+As mentioned in the paper above, 4 fidelity functions and 3 regularizers are proposed.
 
-DEPENDENCIES:
+## DEPENDENCIES:
 
 Cut Pursuit : https://github.com/loicland/cut-pursuit
 
@@ -21,4 +21,4 @@ ALPHA-EXPANSION : http://www.csd.uwo.ca/faculty/olga/software.html
 LiDAR Format : https://github.com/IGNF/lidarformat
 
 All those dependencies are optional, but access to the corresponding regularization are dependant on which ones are installed. If you chose not to install some of those libraries, some code commenting might be necessary.
-If LiDAR Format is not installed, you will need to convert your point clouds into the correct format, as detailed in the function convert_ply_mex.cpp
+If LiDAR_Format is not installed, you will need to convert your point clouds into the correct format, as detailed in the function convert_ply_mex.cpp
