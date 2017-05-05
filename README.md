@@ -12,7 +12,7 @@ As mentioned in the paper above, 4 fidelity functions and 3 regularizers are pro
 
 ## DEPENDENCIES:
 
-Cut Pursuit : https://github.com/loicland/cut-pursuit
+CUT PURSUIT : https://github.com/loicland/cut-pursuit
 
 PFDR : (to come very soon)
 
@@ -21,3 +21,5 @@ ALPHA-EXPANSION : http://vision.ucla.edu/~brian/gcmex.html
 LOOPY BELIEF PROPAGATION : http://www.cs.ubc.ca/~schmidtm/Software/UGM.html
 
 All those dependencies are optional, but access to the corresponding regularization are dependant on which ones are installed. If you chose not to install some of those libraries, some code commenting might be necessary.
+
+The data compressed files needs to be dezipped.
