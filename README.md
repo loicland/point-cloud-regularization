@@ -1,14 +1,28 @@
-# point-cloud-regularization
+## point-cloud-regularization
 
-A structured optimization framework for spatially regularizing point clouds classification, with Matlab interface
+A structured optimization framework for spatial regularization and segmentation of point clouds, with Matlab interface
 Loic Landrieu 2017
 
-Based on the article:
+
+#Regularization: 
+
+Based on:
+
 A structured regularization framework for spatially smoothing semantic labelings of 3D point clouds.
 Landrieu, L., Raguet, H., Vallet, B., Mallet, C., & Weinmann, M. (2017).
 
 This framework propose a set of methods for spatialy regularizing semantic labelings on a point cloud.
 As mentioned in the paper above, 4 fidelity functions and 3 regularizers are proposed.
+
+
+#Segmentation:
+
+Based on:
+
+Weakly supervised segmentation-aided classification of urban scenes from 3D LiDAR point clouds.
+Guinard, S., & Landrieu, L. In ISPRS 2017
+
+Fast segmentation of point clouds with L0-cut pursuit.
 
 ## DEPENDENCIES:
 
