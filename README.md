@@ -6,8 +6,7 @@ Loic Landrieu 2017
 
 # Regularization: 
 
-![regularization](https://user-images.githubusercontent.com/1902679/28877706-76ef2fa8-779d-11e7-84a3-6288594c8b73.png)
-![segmentation](https://user-images.githubusercontent.com/1902679/28877709-76f86c08-779d-11e7-8b27-41a0ec4e3187.png)
+![regularization](https://user-images.githubusercontent.com/1902679/28877990-49e1662e-779e-11e7-96cb-8f49e4700a09.png)
 
 Based on:
 
@@ -19,6 +18,8 @@ As mentioned in the paper above, 4 fidelity functions and 3 regularizers are pro
 
 
 # Segmentation:
+
+![segmentation](https://user-images.githubusercontent.com/1902679/28877979-44c9c726-779e-11e7-87d6-75cf853f9622.png)
 
 Based on:
 
