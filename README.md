@@ -4,7 +4,10 @@ A structured optimization framework for spatial regularization and segmentation 
 Loic Landrieu 2017
 
 
-#Regularization: 
+# Regularization: 
+
+[https://user-images.githubusercontent.com/1902679/28877706-76ef2fa8-779d-11e7-84a3-6288594c8b73.png]
+[https://user-images.githubusercontent.com/1902679/28877709-76f86c08-779d-11e7-8b27-41a0ec4e3187.png]
 
 Based on:
 
@@ -15,7 +18,7 @@ This framework propose a set of methods for spatialy regularizing semantic label
 As mentioned in the paper above, 4 fidelity functions and 3 regularizers are proposed.
 
 
-#Segmentation:
+# Segmentation:
 
 Based on:
 
