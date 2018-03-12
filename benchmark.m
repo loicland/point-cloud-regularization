@@ -17,7 +17,7 @@ addpath('./UGM/infer/')
 addpath('./UGM/decode/')
 addpath('./GCMex')
 addpath('./PFDR_simplex/mex/bin/')
-addpath('./L0_cut_pursuit/bin/')
+addpath('./cut_pursuit/bin/')
 %----build the adjacency graph---------------------------------------------
 graph = build_graph_structure('oakland.ply',10,0,0);
 %---retrieve labeling with your favorite classifier------------------------
