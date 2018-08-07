@@ -32,7 +32,7 @@ Fast segmentation of point clouds with L0-cut pursuit.
 
 CUT PURSUIT : https://github.com/loicland/cut-pursuit
 
-PFDR : (to come very soon)
+PFDR : From https://github.com/1a7r0ch3
 
 ALPHA-EXPANSION : http://vision.ucla.edu/~brian/gcmex.html
 
@@ -40,4 +40,10 @@ LOOPY BELIEF PROPAGATION : http://www.cs.ubc.ca/~schmidtm/Software/UGM.html
 
 All those dependencies are optional, but access to the corresponding regularization are dependant on which ones are installed. If you chose not to install some of those libraries, some code commenting might be necessary.
 
-The data compressed files needs to be dezipped.
+The data compressed files needs to be dezipped. All credits goes to http://www.cs.cmu.edu/~vmr/datasets/oakland_3d/cvpr09/ for the data.
+
+## RUNNING THE CODE:
+
+Run the lines from `configure.m` corresponding to the method you are interested to try.
+
+Follow `benchmark.m` to see examples of calls.

@@ -18,11 +18,13 @@ addpath('./UGM/decode/')
 addpath('./GCMex')
 addpath('./PFDR_simplex/mex/bin/')
 addpath('./cut_pursuit/bin/')
-%----build the adjacency graph---------------------------------------------
+%----build the adjacency graph from ply file-------------------------------
 graph = build_graph_structure('oakland.ply',10,0,0);
 %---retrieve labeling with your favorite classifier------------------------
-load('oakland_RF', 'initial_classif');
+%must be n_point x n _class probability float matrix
+load('oakland_RF', 'initial_classif'); 
 %---if available - load the ground truth here------------------------------
+%must be n_point x 1 label uint_8 matrix
 load('oakland_GT', 'ground_truth'); %MUST BE UINT8
 %--------------------------------------------------------------------------
 %--------------- BENCHMARKING ---------------------------------------------
