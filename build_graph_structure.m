@@ -45,7 +45,7 @@ if (edge_weight_mode>0)
 elseif (edge_weight_mode<0)
     edge_weight = exp(distance / (d0 * edge_weight_mode));
 end
-edge_weight = reshape(edge_weight, [1 (k * n_point)])';
+edge_weight = reshape(edge_weight', [1 (k * n_point)])';
 %---pruning----------------------------------------------------------------
 pruned = false(size(distance));
 if (dist_cap>0)
