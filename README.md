@@ -34,7 +34,7 @@ CUT PURSUIT : https://github.com/loicland/cut-pursuit
 
 PFDR : From https://github.com/1a7r0ch3
 
-ALPHA-EXPANSION : http://vision.ucla.edu/~brian/gcmex.html
+ALPHA-EXPANSION / GCMEX : https://github.com/shaibagon/GCMex
 
 LOOPY BELIEF PROPAGATION : http://www.cs.ubc.ca/~schmidtm/Software/UGM.html
 
